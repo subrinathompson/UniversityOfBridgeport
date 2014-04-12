@@ -1,0 +1,60 @@
+  00010110  		2's Complement		  22             
++ 10000011  		Biased Notation		+ 3              
+  --------  		               		------         
+  00011001  		2's Complement		+ 25             
+
+  10000001  		2's Complement		  -127           
++ 00000000  		Biased Notation		+ -128           
+  --------  		               		------         
+  Underflow 		2's Complement		+ -255           
+
+  11111111  		2's Complement		  -1             
++ 00000000  		Biased Notation		+ -128           
+  --------  		               		------         
+  Underflow 		2's Complement		+ -129           
+
+  00000011  		2's Complement		  3              
++ 10000111  		Biased Notation		+ 7              
+  --------  		               		------         
+  00001010  		2's Complement		+ 10             
+
+  00001111  		2's Complement		  15             
++ 10000111  		Biased Notation		+ 7              
+  --------  		               		------         
+  00010110  		2's Complement		+ 22             
+
+  10000000  		2's Complement		  -128           
++ 11111111  		Biased Notation		+ 127            
+  --------  		               		------         
+  11111111  		2's Complement		+ -1             
+
+  11110000  		2's Complement		  -16            
++ 10001000  		Biased Notation		+ 8              
+  --------  		               		------         
+  11111000  		2's Complement		+ -8             
+
+  10000001  		2's Complement		  -127           
++ 00000001  		Biased Notation		+ -127           
+  --------  		               		------         
+  Underflow 		2's Complement		+ -254           
+
+  01111111  		2's Complement		  127            
++ 00000000  		Biased Notation		+ -128           
+  --------  		               		------         
+  11111111  		2's Complement		+ -1             
+
+  01110101  		2's Complement		  117            
++ 11010001  		Biased Notation		+ 81             
+  --------  		               		------         
+  Overflow  		2's Complement		+ 198            
+
+  00000000  		2's Complement		  0              
++ 10000000  		Biased Notation		+ 0              
+  --------  		               		------         
+  00000000  		2's Complement		+ 0              
+
+  00001111  		2's Complement		  15             
++ 11110000  		Biased Notation		+ 112            
+  --------  		               		------         
+  01111111  		2's Complement		+ 127            
+
